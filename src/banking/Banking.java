@@ -45,8 +45,8 @@ public class Banking {
     
     public long SendMailbySite(String emailto){
         long otp=0; 
-        final String user="rakshit.jain2016@vitstudent.ac.in";//change accordingly  
-        final String password="R@k$h!t/123";//change accordingly  
+        final String user="from email";//change accordingly  
+        final String password="password of from email";//change accordingly  
     
         String to=emailto;//change accordingly  
        //Get the session object  
@@ -87,8 +87,8 @@ public class Banking {
 
     public void SendMailbySiteText(String emailto, String username){
         long otp=0; 
-        final String user="rakshit.jain2016@vitstudent.ac.in";//change accordingly  
-        final String password="R@k$h!t/123";//change accordingly  
+        final String user="from email";//change accordingly  
+        final String password="password of from email";//change accordingly  
     
         String to=emailto;//change accordingly  
        //Get the session object  
